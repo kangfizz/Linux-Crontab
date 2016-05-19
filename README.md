@@ -4,9 +4,9 @@ This topic is talking about how to use crontab to run some web crawler files for
 ### 此文將介紹使用ubuntu系統之crontab定時排程技術，去實行在R程式抓取即時資料之方法。
 
 ### 1.	Crontab指令:
-Crontab –e   編輯
-Crontab –l		列出排程
-Crontab –r		刪除所有排程
++ Crontab –e   編輯
++ Crontab –l		列出排程
++ Crontab –r		刪除所有排程
 
 ### 2.	在進入 Crontab –e 後，案”i”編輯 編輯完後按”ctrl+c”兩次後 打上”:wq”
 (也就是儲存後關閉)
