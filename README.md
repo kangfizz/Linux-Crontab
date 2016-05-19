@@ -11,10 +11,8 @@ This topic is talking about how to use crontab to run some web crawler files for
 ### 2.	
 在進入 Crontab –e 後，案”i”編輯 編輯完後按”ctrl+c”兩次後 打上”:wq”   
  (也就是儲存後關閉)  
- 寫入格式可參考:  
- [這個網址](https://sites.google.com/site/stevenattw/linux/crontab)  
- 舉個例子:  
- */2 * * * * Rscript /PATH/TO/FILE.R  
+ 寫入格式可參考: [這個網址](https://sites.google.com/site/stevenattw/linux/crontab)  
+ 舉個例子: */2 * * * * Rscript /PATH/TO/FILE.R  
  此情況為每兩分鐘執行一次.R檔   
 
 ### 3.	看執行狀況可從 /var/mail/root 看 
